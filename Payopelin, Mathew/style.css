@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav {
+  font-size: 27px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(200, 80, 0);
+  border: 3px solid black;
+  position: sticky;
+  top: 0;
+  z-index: 101;
+}
+.box {
+  padding: 20px 20px;
+  color: white;
+}
+.about{
+  background-color: rgb(50,50,50);
+  text-align: center;
+  padding: 300px 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative; 
+  z-index: 1; 
+}
+.main{
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.sub{
+  color: rgb(200, 80, 0);
+  font-size: 30px;
+  font-weight: 10;
+  font-style: italic;
+}
+.abt{
+  color: white;
+  margin-top: 20px;
+}
+.abtSub{
+  color: white;
+  padding: 700;
+  margin-top: 10px;
+}
+.vidgames {
+  color: white;
+  border-top: solid black;
+  background-color: rgb(200, 80, 0);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-size: 34px;
+}
+
+.games-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: rgb(200, 80, 0);
+}
+.game {
+  width: 50vh;
+  height: 75vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  background-size: cover;
+  background-position: center;
+  margin: 0 10px;
+  border-radius: 8px;
+}
+
+.game1 {
+  background-image: url('marvel.jpg');
+}
+
+.game2 {
+  background-image: url('valorant.png');
+}
+
+.game3 {
+  background-image: url('cs2.jpeg');
+}
+.statsgame {
+  color: white;
+  font-size: 30px;
+  border-top: solid black;
+  background-color: rgb(50, 50, 50);
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.statsgame1 {
+  color: white;
+  font-size: 30px;
+  border-top: solid black;
+  background-color: rgb(200, 80, 0);
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1200px;
+  margin-top: 20px;
+  align-items: flex-start; 
+}
+.stats-image {
+  width: 100hv;
+  height: 700px;
+  margin-left: 20px;
+}
+.text-container { 
+  flex: 1;
+  text-align: left;
+}
+.rank {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.info {
+  line-height: 1.6;
+}
+.footer {
+  margin-top: solid black 5px;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 16px;
+}
